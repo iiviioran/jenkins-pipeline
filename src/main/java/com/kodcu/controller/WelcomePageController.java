@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class WelcomePageController {
 
-    @GetMapping(path = "/greeting")
+    // @RequestMapping(value = "/", method = RequestMethod.GET)
+    @GetMapping(path = "/")
     public String getPage(){
         return "index";
     }
