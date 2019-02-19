@@ -45,7 +45,7 @@ node {
         runApp(CONTAINER_NAME, CONTAINER_TAG, DOCKER_HUB_USER, HTTP_PORT)
     }
 
-    stage('test App'){
+    stage('Test App'){
         echo "Test"
     }
 
