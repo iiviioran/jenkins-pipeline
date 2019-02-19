@@ -45,6 +45,11 @@ node {
         runApp(CONTAINER_NAME, CONTAINER_TAG, DOCKER_HUB_USER, HTTP_PORT)
     }
 
+    stage('test App'){
+        echo "Test"
+    }
+
+
 }
 
 def imagePrune(containerName){
